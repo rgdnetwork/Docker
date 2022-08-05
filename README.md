@@ -27,7 +27,7 @@ Ejemplo: ```docker run mongo```
 Ejemplo: ```docker start mongo```
 
 ## 7.- Comando para parar un contenedor.
-```docker stop [nombre o id del contenedor]
+```docker stop [nombre o id del contenedor]```
 Ejemplo: ```docker stop mongo```
 
 
