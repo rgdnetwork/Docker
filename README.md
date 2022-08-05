@@ -23,8 +23,13 @@ Ejemplo: ```docker run mongo```
 ```docker create [nombre de la imagen o id]``` Ejemplo: ```docker create mongo```
 
 ## 6.- Comando para iniciar un contenedor.
-```docker start [nombre o id del contenedor```
+```docker start [nombre o id del contenedor]```
 Ejemplo: ```docker start mongo```
+
+## 7.- Comando para parar un contenedor.
+```docker stop [nombre o id del contenedor]
+Ejemplo: ```docker stop mongo```
+
 
 
 
