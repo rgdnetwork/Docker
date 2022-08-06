@@ -36,6 +36,10 @@ Ejemplo: ```docker stop mongo```
 ## 9.- Comando para ver los contenedores que no estan corriendo.
 ```docker ps -a```
 
+## 10.- Comando para crear contenedores asignando un nombre en específico.
+```docker create --name [nombre que queramos ponerle] [nombre o id de la imagen]```
+Ejemplo: ```docker create --name database mongo```
+
 
 
 
