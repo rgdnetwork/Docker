@@ -30,6 +30,12 @@ Ejemplo: ```docker start mongo```
 ```docker stop [nombre o id del contenedor]```
 Ejemplo: ```docker stop mongo```
 
+## 8.- Comando para ver los contenedores que estan corriendo.
+```docker ps```
+
+## 9.- Comando para ver los contenedores que no estan corriendo.
+```docker ps -a```
+
 
 
 
