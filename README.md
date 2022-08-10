@@ -23,26 +23,30 @@ Ejemplo: ```docker rmi mongo```
 ```docker run [nombre de la imagen]``` 
 Ejemplo: ```docker run mongo```
 
-## .- Comando para crear un contendor desde una imagen.
+## 6.- Comando para crear un contendor desde una imagen.
 ```docker create [nombre de la imagen o id]``` Ejemplo: ```docker create mongo```
 
-## .- Comando para iniciar un contenedor.
+## 7.- Comando para crear contenedores asignando un nombre en específico.
+```docker create --name [nombre que queramos ponerle] [nombre o id de la imagen]```
+Ejemplo: ```docker create --name database mongo```
+
+## 8.- Comando para iniciar un contenedor.
 ```docker start [nombre o id del contenedor]```
 Ejemplo: ```docker start mongo```
 
-## .- Comando para parar un contenedor.
+## 9.- Comando para ver los contenedores que estan corriendo.
+```docker ps```
+
+## 10.- Comando para parar un contenedor.
 ```docker stop [nombre o id del contenedor]```
 Ejemplo: ```docker stop mongo```
 
-## .- Comando para ver los contenedores que estan corriendo.
-```docker ps```
-
-## .- Comando para ver los contenedores que no estan corriendo.
+## 11.- Comando para ver los contenedores que no estan corriendo.
 ```docker ps -a```
 
-## .- Comando para crear contenedores asignando un nombre en específico.
-```docker create --name [nombre que queramos ponerle] [nombre o id de la imagen]```
-Ejemplo: ```docker create --name database mongo```
+
+
+
 
 
 
