@@ -19,7 +19,7 @@ Ejemplo: ```docker rmi mongo```
 ## 4.- Comando para ver las imágenes que tenemos instaladas en nuestra máquina.
 ```docker images```
 
-## .- Comando para descargar y correr el contenedor con las imagenes de Dockerhub.
+## 5.- Comando para descargar y correr el contenedor con las imagenes de Dockerhub.
 ```docker run [nombre de la imagen]``` 
 Ejemplo: ```docker run mongo```
 
