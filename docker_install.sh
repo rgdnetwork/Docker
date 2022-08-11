@@ -1,1 +1,1 @@
-apt update && apt update -y | apt install docker.io
+apt install docker.io
