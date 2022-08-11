@@ -5,7 +5,7 @@
 #### - Ver la versión de docker que tenemos instalada en nuestra máquina.
 ```docker --version```
 
-## Imágenes
+## Imágenes :cd:
 
 #### - Como descargar la imagen desde Dockerhub.
 ```docker pull [nombre de la imagen]```
@@ -24,7 +24,7 @@ Ejemplo: ```docker rmi mongo```
 #### - Comando para ver las imágenes que tenemos instaladas en nuestra máquina.
 ```docker images```
 
-## Contenedores
+## Contenedores :department_store:
 
 #### - Comando para descargar y correr el contenedor con las imagenes de Dockerhub.
 ```docker run [nombre de la imagen]``` 
@@ -53,14 +53,31 @@ Ejemplo: ```docker stop mongo```
 
 #### - Comando para eliminar un contenedor.
 ```docker rm [nombre o id del contenedor]```
-Ejemplo: ```docker rm my.name```
+Ejemplo: ```docker rm my.container```
 
-## Network
+## Network :link:
 
 #### Comando para crear una network.
 ```docker network create [opción de la red que deseamos crear] [nombre que le queramos poner a la network]```
 Ejemplo: ```docker network create bridge my.network```
 
+#### Comando para conectarse a una network.
+```docker network connect [nombre de la red] [nombre del contenedor]```
+Ejemplo: ```docker network connect my.network my.container 
+
+#### Comando para desconectarse de una network.
+```docker network disconncet```
+Ejemplo: ```docker network disconnect my.network my.container 
+
+#### Comando para ver la lista de redes.
+```docker network ls```
+
+#### Comando para borrar network que no se estan usando desde hace tiempo.
+```docker network prune```
+
+## Comando para borrar una red específica.
+```docker network rm [nombre o id de la red]```
+Ejemplo: ```docker network rm my.network```
 
 
 
