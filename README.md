@@ -75,7 +75,7 @@ Ejemplo: ```docker network disconnect my.network my.container
 #### Comando para borrar network que no se estan usando desde hace tiempo.
 ```docker network prune```
 
-## Comando para borrar una red específica.
+#### Comando para borrar una red específica.
 ```docker network rm [nombre o id de la red]```
 Ejemplo: ```docker network rm my.network```
 
