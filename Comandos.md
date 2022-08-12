@@ -66,8 +66,8 @@ Ejemplo: ```docker network create bridge my.network```
 Ejemplo: ```docker network connect my.network my.container 
 
 #### Comando para desconectarse de una network.
-```docker network disconncet```
-Ejemplo: ```docker network disconnect my.network my.container 
+```docker network disconncet [nombre de la red] [nombre del contenedor]```
+Ejemplo: ```docker network disconnect my.network my.container```
 
 #### Comando para ver la lista de redes.
 ```docker network ls```
