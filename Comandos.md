@@ -16,6 +16,8 @@
 ```docker pull [nombre de la imagen]```
 Ejemplo: ```docker pull mongo``` si no especificamos la versión que deseamos de usar se nos descargará siempre la última versión de la imagen.
 
+> Enlace a [DockerHub](https://hub.docker.com/)
+
 Si deseamos descargar una versión en específico de la imagen deberemos de usar el siguiente comando ```docker pull [nombre de la imagen]:[versión]```
 Ejemplo: ```docker pull mongo:4.2```
 
