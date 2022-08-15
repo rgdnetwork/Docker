@@ -15,5 +15,8 @@ Si ejecutamos el comando ```ls``` observaremos que se nos ha añadido una carpet
 
 Dentro de la carpeta Docker ejecutaremos el comando ```ls``` y vemos que tenemos varios archivos pero el que mas nos interesa es el que se llama ```docker_install.sh```, para ejecutar el instalador usaremos el siguiente comando, ```sh docker_install.sh```
 
-## Y ya tendriamos docker instalado pero para comprobarlo usaremos el comando ```docker --version```.
+Y ya tendriamos docker instalado pero para comprobarlo usaremos el comando ```docker --version```
+
+## Para ver algunos comandos de Docker que tengo en este repositorio volveremos al [índice](https://github.com/rgdnetwork/Docker#%C3%ADndice).
+
 
