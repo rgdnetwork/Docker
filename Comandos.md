@@ -1,9 +1,9 @@
 # Docker-commands :whale:
 
 ## Categorías:
-- [Imágenes](https://github.com/rgdnetwork/Docker/blob/Docker/Comandos.md#im%C3%A1genes-cd)
-- [Contenedores](https://github.com/rgdnetwork/Docker/blob/Docker/Comandos.md#contenedores-department_store)
-- [Network](https://github.com/rgdnetwork/Docker/blob/Docker/Comandos.md#network-link)
+- [**Imágenes**](https://github.com/rgdnetwork/Docker/blob/Docker/Comandos.md#im%C3%A1genes-cd)
+- [**Contenedores**](https://github.com/rgdnetwork/Docker/blob/Docker/Comandos.md#contenedores-department_store)
+- [**Network**](https://github.com/rgdnetwork/Docker/blob/Docker/Comandos.md#network-link)
 
 ## Comandos para docker:
 
