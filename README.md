@@ -2,7 +2,7 @@
 
 ## Índice: 
 - [Guía de instalación](https://github.com/rgdnetwork/Docker#para-ello-es-importante-saber-que-tenemos-que-ser-root-para-poder-instalar-docker-en-nuestra-m%C3%A1quina-de-forma-sencilla)
-- [Comandos de Docker](https://github.com/rgdnetwork/Docker/blob/Docker/Comandos.md#docker-commands-whale)
+- [Comandos de Docker](https://github.com/rgdnetwork/Docker/blob/Docker/Comandos.md)
 - [Licencia](https://github.com/rgdnetwork/Docker/blob/Docker/LICENSE)
 
 ## ¡Para ello es importante saber que tenemos que ser root para poder instalar docker en nuestra máquina de forma sencilla!
