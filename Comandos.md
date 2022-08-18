@@ -7,7 +7,7 @@
 
 ## Comandos para docker:
 
-#### - Ver la versión de docker que tenemos instalada en nuestra máquina.
+#### - ver la versión de docker que tenemos instalada en nuestra máquina.
 ```docker --version```
 
 ## Imágenes :cd:
